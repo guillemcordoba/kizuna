@@ -239,18 +239,7 @@ dependencies = [
 name = "contacts_integrity"
 version = "0.0.1"
 dependencies = [
- "contacts_integrity 0.0.1 (git+https://github.com/holochain-open-dev/contacts?branch=hdk-0.0.138)",
- "derive_more",
- "holochain_deterministic_integrity",
- "serde",
-]
-
-[[package]]
-name = "contacts_integrity"
-version = "0.0.1"
-source = "git+https://github.com/holochain-open-dev/contacts?branch=hdk-0.0.138#b4dcd0d459e9046f6ce9a338cf21f2df5c05bd5c"
-dependencies = [
- "contacts_integrity_types 0.0.1 (git+https://github.com/holochain-open-dev/contacts?branch=hdk-0.0.138)",
+ "contacts_integrity 0.0.1 (git+https://github.com/holochain-open-dev/contacts?rev=df75ac086e65adf1751199fe931f5ce8c1762017)",
  "derive_more",
  "holochain_deterministic_integrity",
  "serde",

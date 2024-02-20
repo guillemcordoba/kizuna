@@ -30,6 +30,7 @@ const AddContactModal: React.FC<Props> = ({ isOpen, onCancel }) => {
   const handleOnChange = (searchKey: string) => {
     if (searchKey.length >= 3) {
       dispatch(searchProfiles(searchKey)).then((profiles: Profile[]) => {
+        console.log('here', profiles)
         if (profiles) {
           const filteredProfiles = profiles.filter((profile: Profile) =>
             profile.username.toLowerCase().includes(searchKey.toLowerCase())
